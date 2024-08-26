@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background:rgb(27, 1, 11);
+    height: 100vmax;
+    width: 100vamx;
+    font-family: system-ui;
+
+}
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.head1{
+   
+    position: absolute;
+    width: 100vmax; 
+    z-index: 100 ;
+}
+.head1 .logo{
+  
+    font-size:100px ;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    color: #000000;
+   margin: 100px ;
+}
+.head1 .logo:hover {
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+ }
+.kaiser{
+    font-size:130px ;
+}
+.head2{
+    position: absolute;
+    width: 70vmax;
+    display: flex;
+    z-index: 100 ;
+    justify-content: space-between;
+    align-items: center;
+    font-size:30px;
+    margin-left: 30px;
+}
+.head2 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.head2 ul li{
+    margin-right: 30px;
+}
+.head2 ul li a{
+ padding: 6px 15px;
+ border-radius: 20px;
+}
+.head2 ul li a:hover , .active{
+   background: #fff;
+   color: #200016;
+}
+.head2 .active{
+    background: rgb(1, 51, 252);
+    color: #ffffff;
+}
+.head2 .active1{
+    background:linear-gradient(#8000ff,#ff0026,#ffe100);
+    color: #ffffff;
+}
+.head2 .active2{
+    background: #008cff;
+    color: #ffffff;
+}
+.head2 .active3{
+    background: rgb(22, 3, 168);
+    color: #ffffff;
+}
+.head2 .active4{
+    background:#000000;
+    color: #ffffff;
+
+}
+.main{
+    position: relative;
+    height: 100vh;
+    width: 100vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.main::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background :linear-gradient(#1d3a4e24,#1f000d);
+}
+.main img {
+    position: absolute;
+    width: 100vmax;
+    height: 100vh;
+    object-fit: cover; 
+}
+#moon {
+    mix-blend-mode: screen;
+    transform: translateY(80px);
+}
+.contant{  
+    width: 95vmax; 
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background:(#ffffff);
+}
+.contant h2 {
+    margin: 20px;
+    font-size: 60px;
+   
+}
+.contant p {
+    margin: 20px;
+    font-size: 40px;
+    background:(#000000);
+    
+}
+#end img{
+    width: 100vmax;
+    background:(#000000);   
+}
+#end {
+    background:(#000000);
+}

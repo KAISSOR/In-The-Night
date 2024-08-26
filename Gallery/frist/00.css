@@ -1,0 +1,19 @@
+*{
+   margin: 10px;
+  
+}
+body{
+   background:radial-gradient(rgb(255, 255, 255),rgb(1, 88, 101));
+}
+.netimg img{
+   width:  200px;
+   height: 200px;
+   border-top: 5px solid rgb(255, 0, 162);
+}
+.netimg img:hover{
+   border: 5px solid #ff0;
+}
+.main img{
+   width:  830px;
+   height: 830px;
+}

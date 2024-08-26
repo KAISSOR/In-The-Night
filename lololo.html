@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+     <meta charset="UTF-8">
+     <link rel="stylesheet" href="anwar.css">
+    </head>
+
+
+<body>
+
+<div class="main" align ="center" >
+    
+
+
+        <div class ="head">
+        <img src="11.png" width="100%"  >
+        </div>
+
+        <div class="input">
+            <input type="text" id="thecoach" placeholder=" name the coach">
+            <input type="text" id="Content" placeholder="Content">
+        <div class="data">
+            <input type="text" id="date" placeholder="date">
+            <input type="text" id="timing" placeholder="timing">
+            <input type="text" id="theway" placeholder="the way">
+            <input type="text" id="theplace" placeholder="the place">
+        </div>
+            <input type="text" id="type" placeholder="type">
+            <button id="bot">Create</button>
+        
+        </div>
+
+        <div class="output">
+
+        <div class="search">
+                <input type="text" onkeyup="searchdata(this.value)" id="search" placeholder="search">
+                <div class="btnsearch" >
+                <button id="Name" onclick="getsearchmood(this.id)" >Search By Name</button>
+                <button id="Content" onclick="getsearchmood(this.id)">Search By Content</button>
+                </div>
+        </div>  
+
+        <div id="dall"></div>
+        <img src="22.png" width="60%"  >
+
+        <table>
+                <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Contebt</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>The Way</th>
+                <th>The place</th>
+                <th>Type</th>
+                <th>Update</th>
+                <th>Delete</th>
+                </tr>
+        <tbody id="tbody" >
+        </tbody>
+        </table>
+        <br>
+        <button id="botprint" align ="center"> Prent Your Table </button>
+
+
+        
+        </div>
+
+
+
+</div>
+
+        <button id="btnup"> ^ </button>
+        <script src="anwar.js"></script> 
+</body>
+</html>
